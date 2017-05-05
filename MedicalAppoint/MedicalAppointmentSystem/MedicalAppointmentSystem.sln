@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalAppointmentSystem.Web", "MedicalAppointmentSystem\MedicalAppointmentSystem.Web.csproj", "{16D4A6B9-2B69-45D7-85DB-29D72BF4E7D6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F3CAD948-C537-47E2-A76C-EABFB7A24A3D} = {F3CAD948-C537-47E2-A76C-EABFB7A24A3D}
+		{C044554A-207E-4A0E-B9FA-F3584F573416} = {C044554A-207E-4A0E-B9FA-F3584F573416}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalAppointmentSystem.Entities", "MedicalAppointmentSystem.Entities\MedicalAppointmentSystem.Entities.csproj", "{C044554A-207E-4A0E-B9FA-F3584F573416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalAppointmentSystem.Repository", "MedicalAppointmentSystem.Repository\MedicalAppointmentSystem.Repository.csproj", "{F3CAD948-C537-47E2-A76C-EABFB7A24A3D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C044554A-207E-4A0E-B9FA-F3584F573416} = {C044554A-207E-4A0E-B9FA-F3584F573416}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalAppointmentSystem.BussinessLogic", "MedicalAppointmentSystem.BussinessLogic\MedicalAppointmentSystem.BussinessLogic.csproj", "{73856892-D98D-4854-86E9-5532235FB36A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16D4A6B9-2B69-45D7-85DB-29D72BF4E7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D4A6B9-2B69-45D7-85DB-29D72BF4E7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D4A6B9-2B69-45D7-85DB-29D72BF4E7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D4A6B9-2B69-45D7-85DB-29D72BF4E7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C044554A-207E-4A0E-B9FA-F3584F573416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C044554A-207E-4A0E-B9FA-F3584F573416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C044554A-207E-4A0E-B9FA-F3584F573416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C044554A-207E-4A0E-B9FA-F3584F573416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3CAD948-C537-47E2-A76C-EABFB7A24A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CAD948-C537-47E2-A76C-EABFB7A24A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CAD948-C537-47E2-A76C-EABFB7A24A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CAD948-C537-47E2-A76C-EABFB7A24A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73856892-D98D-4854-86E9-5532235FB36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73856892-D98D-4854-86E9-5532235FB36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73856892-D98D-4854-86E9-5532235FB36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73856892-D98D-4854-86E9-5532235FB36A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
